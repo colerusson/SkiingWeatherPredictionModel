@@ -240,4 +240,3 @@ class DataProcessor:
                  'Average precipitation inches (mm)': 53}
     }
 
-
