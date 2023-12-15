@@ -45,5 +45,3 @@ new_year_snowfall = np.array(new_year_snowfall).reshape(1, -1)  # Reshape to mat
 # Predicted total snowfall for the upcoming year using the trained model
 predicted_snowfall = model.predict(new_year_snowfall)
 print("Predicted total snowfall for the upcoming year (2024):", predicted_snowfall[0])
-
-print("Predicted total snowfall for the upcoming year:", predicted_snowfall[0])
